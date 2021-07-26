@@ -1,0 +1,97 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap'); 
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap');
+
+*{
+    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.nav-area{
+    list-style: none;
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-area li a{
+    color: rgba(151, 150, 150, 0.822);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-area li a:hover{
+    color: rgba(8, 165, 157, 0.808);    
+}
+
+
+.logo{
+    padding: 0px 20px;
+}
+
+.logo h2{
+  display: inline-block;
+  color: rgba(8, 165, 157, 0.808);
+  font-weight: bolder;
+
+}
+
+.logo h3{
+    display: inline-block;
+    color: rgba(151, 150, 150, 0.822);
+    font-weight: bolder;
+}
+
+.main-section{
+    width: 100%;
+    padding: 30px 70px;
+}
+
+
+.col-12 h2{
+    font-size: 33px;
+    font-weight:lighter;
+    margin-top: 30px;
+    color: rgba(8, 165, 157, 0.808);
+    padding: 20px 80px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.col-md-6 p{
+        
+    font-size: 17px;
+    font-weight:normal;
+    padding: 20px;
+    height: 500;
+    color: rgb(151, 150, 150);
+}
+
+.refrence{
+    margin-top: 50px;
+}
+
+.card-body h1{
+    font-size: 30px;    
+}
+
+.card-body h2{
+    font-size: 20px;    
+}
+
+.select{
+    margin-top: 40px;
+}

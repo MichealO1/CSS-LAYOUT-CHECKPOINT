@@ -1,0 +1,1 @@
+This is a css layout checkpoint test done at GomycodeNg.
